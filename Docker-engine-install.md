@@ -25,4 +25,4 @@
 
     -   5°  Inicie o serviço do Docker:
         -   sudo service docker start
-        -   Lembre-se de Iniciar o Docker Engine todas as vezes que o Linux for reiniciado
+        -   Lembre-se de Iniciar o Docker Engine todas as vezes que o Linux for reiniciado, senão será exibio o seguinte erro: Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
