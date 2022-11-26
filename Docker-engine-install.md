@@ -1,14 +1,14 @@
 ### Instalando o Docker Engine nativo do Linux no WSL
     
     -   1°  Instale os pré-requisitos:
-    -   sudo apt update && sudo apt upgrade
-        sudo apt remove docker docker-engine docker.io containerd runc
-        sudo apt-get install \
-            apt-transport-https \
-            ca-certificates \
-            curl \
-            gnupg \
-            lsb-release
+        -   sudo apt update && sudo apt upgrade
+            sudo apt remove docker docker-engine docker.io containerd runc
+            sudo apt-get install \
+                apt-transport-https \
+                ca-certificates \
+                curl \
+                gnupg \
+                lsb-release
         
     -   2°  Adicione o repositório do Docker na lista de sources do Ubuntu:
         -   curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
