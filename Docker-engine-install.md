@@ -29,3 +29,10 @@
 
     -   6°  Lembre-se: Se você estiver utilizando o Docker Desktop for Windows e agora irá migrar para o Docker Engine nativo do Linux,
             vá até a pasta ".docker" e delete o arquivo config.json, pois esse arquivo é o arquivo de autenticação utilizado pelo Docker Desktop e quando você for se autenticar com o Docker Engine o arquivo será outro.
+
+    -   7°  Acrescente export DOCKER_BUILDKIT=1 no final do arquivo .profile do seu usuário do Linux para ganhar mais performance ao 
+            realizar builds com Docker. Execute o comando source ~/.profile para carregar esta variável de ambiente no ambiente do seu WSL 2.
+
+    -   8°  Se verificar que o WSL 2 está consumindo muitos recursos da máquina, execute os seguintes comandos dentro do terminal WSL 2 
+            para liberar memória RAM:
+        -   echo 1 | sudo tee /proc/sys/vm/drop_caches   
