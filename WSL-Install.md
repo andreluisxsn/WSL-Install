@@ -78,3 +78,4 @@
     -   6° Configurando o Vscode para edição de arquivos dentro do WSL
         -   Instale a extenção do WSL no próprio Vscode
         -   Após isso você poderá abrir qualquer pasta/arquivo no WSL com comando "code ."
+
