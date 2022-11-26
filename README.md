@@ -15,7 +15,7 @@
     -   5° instalar o wsl
         -   wsl --install -d <Nome da sua Distro de preferência>
 
-### Instalando terminal para funcionameto com o WSL2.
+### Instalando terminal para funcionamento com o WSL2.
 
     -   1° Instale o Windows Terminal
         -   Quando for instalado o proprio Windows Terminal irá identificar o WSL
@@ -78,3 +78,4 @@
     -   6° Configurando o Vscode para edição de arquivos dentro do WSL
         -   Instale a extenção do WSL no próprio Vscode
         -   Após isso você poderá abrir qualquer pasta/arquivo no WSL com comando "code ."
+
