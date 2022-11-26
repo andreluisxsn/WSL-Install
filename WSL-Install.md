@@ -78,6 +78,3 @@
     -   6° Configurando o Vscode para edição de arquivos dentro do WSL
         -   Instale a extenção do WSL no próprio Vscode
         -   Após isso você poderá abrir qualquer pasta/arquivo no WSL com comando "code ."
-
-    -   7°  Lembre-se: Se você estiver utilizando o Docker Desktop for Windows e agora irá migrar para o Docker Engine nativo do Linux,
-            vá até a pasta ".docker" e delete o arquivo config.json, pois esse arquivo é o arquivo de autenticação utilizado pelo Docker Desktop e quando você for se autenticar com o Docker Engine o arquivo será outro.

@@ -26,3 +26,6 @@
     -   5°  Inicie o serviço do Docker:
         -   sudo service docker start
         -   Lembre-se de Iniciar o Docker Engine todas as vezes que o Linux for reiniciado, senão será exibio o seguinte erro: Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+
+    -   6°  Lembre-se: Se você estiver utilizando o Docker Desktop for Windows e agora irá migrar para o Docker Engine nativo do Linux,
+            vá até a pasta ".docker" e delete o arquivo config.json, pois esse arquivo é o arquivo de autenticação utilizado pelo Docker Desktop e quando você for se autenticar com o Docker Engine o arquivo será outro.
